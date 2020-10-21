@@ -9,11 +9,11 @@ public class Circel {
     }
 
     public double getArea(){
-        return radie*radie*Math.PI;
+        return Math.round(radie*radie*Math.PI*100)/100.0;
     }
 
     public double getCircumference(){
-        return radie*2*Math.PI;
+        return Math.round(radie*2*Math.PI*100)/100.0;
     }
 
 }
