@@ -12,7 +12,7 @@ public class Circel {
         return radie*radie*Math.PI;
     }
 
-    public double getPerimiter(){
+    public double getCircumference(){
         return radie*2*Math.PI;
     }
 
