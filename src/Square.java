@@ -12,4 +12,8 @@ public class Square {
         return side*side;
     }
 
+    public int getPerimiter(){
+        return side*4;
+    }
+
 }
