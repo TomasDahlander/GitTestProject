@@ -9,6 +9,10 @@ public class Circel {
     }
 
     public double getArea(){
+        return radie*radie*Math.PI;
+    }
+
+    public double getPerimiter(){
         return radie*2*Math.PI;
     }
 
